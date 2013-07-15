@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <gradient
+        android:angle="0"
+        android:endColor="@color/white"
+        android:paddingTop="0dp"
+        android:startColor="@color/white" />
+    <!-- 按钮四个角的平滑度 -->
+    <corners android:radius="3dip" />
+
+    <!-- 字距离按钮的四个边距 -->
+    <padding
+        android:bottom="10dip"
+        android:left="10dip"
+        android:right="10dip"
+        android:top="10dip" />
+    <!-- 按钮的光环的宽度与颜色 -->
+    <stroke
+        android:width="0dip"
+        android:color="@color/white" />
+
+</shape>
